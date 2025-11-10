@@ -1,0 +1,7 @@
+services:
+  echo:
+    build: .
+    environment:
+      - FLAG=flag{4_1nj3ct3d_fl4g}
+    ports:
+      - "9999:9999"
